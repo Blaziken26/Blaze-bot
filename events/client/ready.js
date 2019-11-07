@@ -1,7 +1,3 @@
-module.exports = async (client, message) =>{
-    console.log(`${client.user.username} is online!`);
-}
-
 //requires the packages we need for this file
 const { prefix } = require("../../config.json");
 
@@ -22,4 +18,5 @@ module.exports = async (client, message) => {
         const presence = Math.floor(Math.random() * (presences.length - 1) + 1);
         client.user.setPresence({ game: { name: `${prefix}help | ${presences[presence]}`}, status: "dnd" });
     }, 6000)
+    console.log(`${client.user.username} is online!`)
 }
