@@ -12,6 +12,7 @@ module.exports = async (client, message) => {
         "Hunter main, tiny brain",,
         "Titan main, big brain",
         "Slide me an Ace, Shotgun, and OEM pls",
+        "twitch.tv/Megablaziken26",
     ]
     //creates a loop that will fire every 60 seconds
     setInterval(() => {
