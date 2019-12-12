@@ -8,7 +8,7 @@ module.exports = async (client, message) => {
         "It's real sniping hours",
         "Arc Titans are scary Titans",
         "Join Blaze's Server!",
-        "011011100111010101110100",,
+        "01001100 01101001 01110110 01100101",,
         "Hunter main, tiny brain",,
         "Titan main, big brain",
         "Slide me an Ace, Shotgun, and OEM pls",
